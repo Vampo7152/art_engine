@@ -7,7 +7,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "Degen Emoji";
 const description = "Degen Emoji Collection | Probably Funny!";
-const baseUri = "ipfs://QmPyiMMK6uXKt7tM2DB4e14EytR2LQUwDdsdDnWvNCDCFy";
+const baseUri = "ipfs://QmUhpXJTRyeQqf8k7L8aD8idfg5jQpeujmiobbpqxiLMwQ";
 
 const solanaMetadata = {
   symbol: "YC",
