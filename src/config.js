@@ -5,9 +5,9 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Degen Emojis";
-const description = "Degen Emojis Collection | Probably Funny!";
-const baseUri = "ipfs://Qmagrpj4S24bpXYvptD78CufNKZUNTpHLrdN5KS8Qo4epa";
+const namePrefix = "Degen Emoji";
+const description = "Degen Emoji Collection | Probably Funny!";
+const baseUri = "ipfs://QmPyiMMK6uXKt7tM2DB4e14EytR2LQUwDdsdDnWvNCDCFy";
 
 const solanaMetadata = {
   symbol: "YC",
@@ -24,7 +24,7 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 200,
+    growEditionSizeTo: 250,
     layersOrder: [
       { name: "Background" },
       { name: "Color" },
@@ -69,7 +69,7 @@ const pixelFormat = {
 };
 
 const background = {
-  generate: true,
+  generate: false,
   brightness: "80%",
   static: false,
   default: "#000000",
